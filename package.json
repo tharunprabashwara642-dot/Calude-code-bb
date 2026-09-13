@@ -1,0 +1,13 @@
+{
+  "name": "claude-code-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot that configures and drives Claude Code, deployable on Railway with Docker.",
+  "main": "bot.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
